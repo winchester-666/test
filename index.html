@@ -1,12 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<div>2</div>
-	<div>4</div>
-	<div>3</div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Maket</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/jquery.formstyler.css">
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.formstyler.js"></script>
+        <script src="js/jquery.scrollTo.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="Home" class="navmenu">
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">Claymore</a>
+                            </div>
+                            <div>
+                                <div class="collapse navbar-collapse menu-nav" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#Home">Home</a></li>
+                                        <li><a href="#About">About</a></li>
+                                        <li><a href="#Service">Service</a></li>
+                                        <li><a href="#Features">Features</a></li>
+                                        <li><a href="#Price">Price</a></li>
+                                        <li><a href="#Contact">Contact</a></li>
+                                        <li><a class="login" href="#">Login</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header-content">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="image-screen  img-responsive" src="img/Screen.png" alt="Screen">
+                        </div>
+                        <div class="col-md-7">
+                            <p class="head-text">Quam eleifend metus commodo</p>
+                            <p class="content-text">luctus at sit amet urna. Quisque non augue tincidunt, egest as massa non, elementum sem. Suspendisse mollis nulla eu lorem ultricies dapibus.</p>
+                            <div class="head-buttons-container">
+                                <div class="col-md-12">
+                                    <a href="#" class="Purchase-now btn btn-default">Purchase now</a>
+                                    <span class="or">or</span>
+                                    <a href="#" class="Learn-more btn btn-default">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <aside>
+            <div class="about-us container">
+                <div class="row">
+                    <div class="us col-md-8">
+                        <p id="About" class="about-header">About us</p>
+                        <p class="about-text">Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis. Donec hendrerit neque sit amet tellus ornare at semper lorem lacinia. Suspendisse ac pellentesque odio. Nunc pharetra malesuada nisi ac condimentum. Curabitur porttitor pulvinar.</p>
+                    </div>
+                    <div class="col-md-4 graphs">
+                        <img class="graph1" src="img/graph1.png" height="144" width="142" alt="graph1">
+                        <img class="graph2" src="img/graph1.png" height="83" width="81" alt="graph2">
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <aside id="Service" class="base">
+            <div class="container">
+                <div class="row">
+                    <div class="base-body col-md-12">
+                        <div class="col-md-4 content-base">
+                            <img src="img/base1.png" height="86" width="99" alt="base1">
+                            <p class="content-base-head">Fully Baked up</p>
+                            <p class="content-base-text">Curabitur tincidunt dapibus odio, eu gravida felis  blandit vel. Vivamus feugiat auctor lorem non eleifend. Nam eu pellentesque est, vitae interdum nisi.</p>
+                        </div>
+                        <div class="col-md-4 content-base">
+                            <img src="img/base2.png" height="89" width="92" alt="base2">
+                            <p class="content-base-head">Build With Love</p>
+                            <p class="content-base-text">Nullam dignissim felis diam, sed ultricies nisl  ultricies quis. Maecenas feugiat urna ante, et viverra tellus facilisis ut. In hac habitasse platea  dictumst.</p>
+                        </div>
+                        <div class="col-md-4 content-base">
+                            <img src="img/base3.png" height="86" width="91" alt="base3">
+                            <p class="content-base-head">Fully Responsive</p>
+                            <p class="content-base-text">Aliquam mattis massa at urna tincidunt ultrices.  Curabitur lobortis ante vulputate, imperdiet felisa adipiscing odio aliquam pharetra molestie mauris.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <aside>
+            <div id="Features" class="features">
+                <div class="container">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <h3>consectetur adipiscing elit. Maecenas facilisis ligula non ornare vehicula.</h3>
+                    <div class="col-md-12 lol">
+                        <div class="mac">
+                            <div class="features-slider">
+                                <div><img src="img/slide1.jpg" height="283" width="452" alt=""></div>
+                                <div><img src="img/slide2.jpg" height="283" width="452" alt=""></div>
+                                <div><img src="img/slide3.jpg" height="283" width="452" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <aside id="Price">
+            <div class="testimonals container">
+                <p class="head-test">What People Say</p>
+                <div class="row">
+                    <div class="col-md-6 testimonals-content">
+                        <div class="col-md-4">
+                            <img src="img/test1.png" height="156" width="142" alt="">
+                        </div>
+                        <div class="col-md-8 text-cont">
+                            <p class="test-head">Excepteur sint occaecat</p>
+                            <p class="test-content">Sed non massa quis nisl tincidunt posuere sit
+                            amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 testimonals-content">
+                        <div class="col-md-4">
+                            <img src="img/test1.png" height="156" width="142" alt="">
+                        </div>
+                        <div class="col-md-8 text-cont">
+                            <p class="test-head">Excepteur sint occaecat</p>
+                            <p class="test-content">Sed non massa quis nisl tincidunt posuere sit
+                            amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 testimonals-content">
+                        <div class="col-md-4">
+                            <img src="img/test1.png" height="156" width="142" alt="">
+                        </div>
+                        <div class="col-md-8 text-cont">
+                            <p class="test-head">Excepteur sint occaecat</p>
+                            <p class="test-content">Sed non massa quis nisl tincidunt posuere sit
+                            amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 testimonals-content">
+                        <div class="col-md-4">
+                            <img src="img/test1.png" height="156" width="142" alt="">
+                        </div>
+                        <div class="col-md-8 text-cont">
+                            <p class="test-head">Excepteur sint occaecat</p>
+                            <p class="test-content">Sed non massa quis nisl tincidunt posuere sit
+                            amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 testimonals-content">
+                        <div class="col-md-4">
+                            <img src="img/test1.png" height="156" width="142" alt="">
+                        </div>
+                        <div class="col-md-8 text-cont">
+                            <p class="test-head">Excepteur sint occaecat</p>
+                            <p class="test-content">Sed non massa quis nisl tincidunt posuere sit
+                            amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 testimonals-content">
+                        <div class="col-md-4">
+                            <img src="img/test1.png" height="156" width="142" alt="">
+                        </div>
+                        <div class="col-md-8 text-cont">
+                            <p class="test-head">Excepteur sint occaecat</p>
+                            <p class="test-content">Sed non massa quis nisl tincidunt posuere sit
+                            amet vitae sem. Praesent sed convallis quam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <aside>
+            <div id="Contact" class="contact">
+                <div class="container contact-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="contact-head">Curabitur ornare neque</p>
+                            <p class="contact-text">id sagittis commodo. Vivamus rhoncus feugiat leo id dictum. Nulla
+                            fermentum nibh eu velit molestie ultricies. Curabitur non gravida urna,
+                            at varius tortor. Donec feugiat, nisl ultrices adipiscing pharetra, augue
+                            lorem pharetra tortor, non tincidunt urna diam in libero. Nam et neque
+                            ut nisi consectetur tempor. Maecenas gravida est eu nisi dignissim
+                            gravida. Proin mollis sodales ullamcorper.</p>
+                            <p class="cont"><i class="gps-icon"></i><span class="gps-text">venenatis neque sit amet ante aliquam sollicitudin</span></p>
+                            <p class="cont"><i class="tel-icon"></i><span class="tel-text"><a href="tel:0888773821">0888-7738-21</a> / <a href="tel:0888773821">0977-333-222-111</a></span></p>
+                            <p class="cont"><i class="mail-icon"></i><span class="mail-text"><a href="mailto:parturient@montes.com">parturient@montes.com</a></span></p>
+                        </div>
+                        <div class="col-md-6 form-wrapper">
+                            <form action="#" method="post">
+                                <div class="form-group col-md-6 your">
+                                    <input type="text" class="form-control"  placeholder="your name">
+                                </div>
+                                <div class="form-group col-md-6 your">
+                                    <input type="email" class="form-control" placeholder="your email">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <div class="section">
+                                        <select>
+                                            <option>your subject</option>
+                                            <option>Пункт 1</option>
+                                            <option>Пункт 2</option>
+                                            <option>Пункт 3</option>
+                                            <option>Пункт 4</option>
+                                            <option>Пункт 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-12 your">
+                                    <textarea class="form-control textarea" rows="7" placeholder="your message"></textarea>
+                                </div>
+                                <div class="form-group col-md-12 form-buttons">
+                                    <button type="reset" class="btn btn-default reset">Reset</button>
+                                    <button type="submit" class="btn btn-default submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <footer>
+            <div class="footer-content">
+                <div class="triangle-wrapper">
+                    <div class="triangle-up"></div>
+                </div>
+                <p class="text-footer">Copyright 2013-2014 @andreyyan, All right reserved.</p>
+            </div>
+        </footer>
+        <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('.features-slider').slick({
+                                prevArrow: '<button type="button" class="slick-prev"></button>',
+                                nextArrow: '<button type="button" class="slick-next"></button>',
+                                autoplay: true,
+                            });
+                        });
+        </script>
+        <script>
+                        (function($) {
+                            $(function() {
+                                $('input, select').styler({
+                                    selectSearch: true
+                                });
+                            });
+                        })
+                        (jQuery);
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            // $(".").on("click","a", function (event) {
+                //     event.preventDefault();
+                //     var id  = $(this).attr('href'),
+                    //         top = $(id).offset().top;
+                //     $('body,html').animate({scrollTop: top}, 1500);
+            // });
+            $('a[href^="#"]').click(function(){
+                var target = $(this).attr('href');
+                $('html, body').animate({scrollTop: $(target).offset().top-90}, 1000);
+            return false;
+            });
+        });
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+                var $menu = $("nav");
+                var $blockmenu = $(".navmenu nav");
+                $(window).scroll(function(){
+                    if ( $(this).scrollTop() > 20 ){
+                        $menu.css("margin-top","0px");
+                        $blockmenu.css({"background":"#263238","opacity":"0.9"});
+                    } else if($(this).scrollTop() <= 20 ) {
+                        $menu.css("margin-top","70px");
+                        $blockmenu.css("background","transparent");
+                    }
+                });
+            });
+        </script>
+    </body>
 </html>
